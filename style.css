@@ -1,0 +1,31 @@
+/* style for body */
+body{
+    color: white;
+}
+/* end style body */
+
+/* override class boostrap */
+.btn-primary{
+    background-color: #0046B1;
+    border: #0046B1;
+}
+/* end override class boostrap */
+
+/* start beranda */
+#beranda{
+    background-color: #0046B1;
+    height: 100vh;
+    position: relative;
+}
+
+#beranda .img-beranda{
+    background: url('img/beranda.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#beranda .search{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
